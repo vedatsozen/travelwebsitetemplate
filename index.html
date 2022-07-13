@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB SITE TEMPLATE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="nav">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#whoarewe">Who are we ?</a></li>
+        <li><a href="#whatwedo">What we do ?</a></li>
+        <li><a href="#prices">Prices</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<div id="headercontainer">
+    <div id="textheader">
+        <h1>We help you to travel all around the world with suitable prices.</h1>
+        <h3>There are so many cities you can visit in my travel list as Paris, London, Istanbul.</h3>
+        <div id="buttons">
+        <button type="text">Explore</button><button type="text" onclick="showcities()">City List</button>
+        </div>
+    
+    </div>
+    <div id="imageheader"><img src="photo.jpg"></div>
+</div>
+
+<div id="whoarewe">
+    <h1>Who Are We ?</h1>
+    <a href="#top">Go to top</a>
+    <div id="container">
+        <div id="left"><img src="photo.jpg"></div>
+        <div id="right">
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+        </div>
+    </div>
+
+</div>
+
+<div id="whatwedo">
+    <h1>What we do ? </h1>
+    <a href="#top">Go to top</a>
+    <div id="container">
+        <div id="left"><img src="photo2.jpg"></div>
+        <div id="right">
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+        </div>
+    </div>
+
+</div>
+
+<div id="prices">
+    <h1>Prices</h1>
+    <a href="#top">Go to top</a>
+    <div id="container">
+        <div id="left"><img src="photo3.jpg"></div>
+        <div id="right">
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+            <h1 class="team">We have a so experienced team that all members are high qualificied to help you in all subjects.</h1>
+        </div>
+    </div>
+
+</div>
+
+<div id="citylist">
+    <p>Rome</p>
+    <p>Paris</p>
+    <p>London</p>
+    <p>Varsaw</p>
+    <p>Berlin</p>
+    <p>İstanbul</p>
+    <button class="closeme" onclick="closeme()">Close</button>
+</div>
+
+<div id="contact">
+    <h1>I am Contact Page</h1>
+    <a href="#top">Go to top</a>
+</div>
+
+<div id="footer">This website is coded by <a href="vedatsozen.netlify.app" target="_blank">Vedat Sözen.</a></div>
+
+    
+</body>
+
+<script>
+
+function showcities() {
+    document.getElementById("citylist").style.visibility = "visible" ;
+}
+
+function closeme() {
+    document.getElementById("citylist").style.visibility = "hidden" ;
+}
+</script>
+</html>
